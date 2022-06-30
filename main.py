@@ -13,12 +13,12 @@ def main():
     pressed = []
 
     pad.LedAllOn(0)
-    if config["use_rgb"]:
-        for button in config["buttons"]:
-            pad.LedCtrlXYByRGB(button["x"], button["y"], button["color"])
-    else:
-        for button in config["buttons"]:
-            pad.LedCtrlXYByCode(button["x"], button["y"], button["color"])
+    # if config["use_rgb"]:
+    #     for button in config["buttons"]:
+    #         pad.LedCtrlXYByRGB(button["x"], button["y"], button["color"])
+    # else:
+    for button in config["buttons"]:
+        pad.LedCtrlXYByCode(button["x"], button["y"], button["color"])
 
     while 1:
         press = pad.ButtonStateXY()
