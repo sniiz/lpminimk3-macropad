@@ -35,14 +35,14 @@ controller = Controller()
 
 def undo():
     controller.press(Key.ctrl)
-    controller.press(Key.z)
-    controller.release(Key.z)
+    controller.press("z")
+    controller.release("z")
     controller.release(Key.ctrl)
 
 def redo():
     controller.press(Key.ctrl)
-    controller.press(Key.y)
-    controller.release(Key.y)
+    controller.press("y")
+    controller.release("y")
     controller.release(Key.ctrl)
 
 config = {
