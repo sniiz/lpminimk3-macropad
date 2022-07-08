@@ -1,4 +1,4 @@
-# launchpad mini mk3 micros
+# launchpad mini mk3 macros
 
 simple lil program to add shortcuts to your launchpad
 
