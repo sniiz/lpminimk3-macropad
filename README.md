@@ -25,6 +25,12 @@ open config.py in your editor of choice
 $ nvim config.py
 ```
 
+run the program
+
+```shell
+$ python3 main.py
+```
+
 see instructions there
 
 ## config examples
