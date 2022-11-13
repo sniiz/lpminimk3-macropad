@@ -8,6 +8,7 @@ clone repo
 
 ```shell
 $ git clone https://github.com/sniiz/lpminimk3-macropad
+$ cd lpminimk3-macropad
 ```
 
 install dependencies with pip - standard stuff right
