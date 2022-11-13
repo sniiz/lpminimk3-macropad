@@ -26,13 +26,13 @@ def main():
             if press[-1]:
                 pressed.append(press[:-1])
                 for button in config["buttons"]:
-                    if button["x"] == press[0] and button["y"] == press[1]:
+                    if [button["x"], button["y"]] == [press[0], press[1]]:
                         button["on_press"]()
             else:
                 if press[:-1] in pressed:
                     pressed.remove(press[:-1])
                     for button in config["buttons"]:
-                        if button["x"] == press[0] and button["y"] == press[1]:
+                        if [button["x"], button["y"]] == [press[0], press[1]]:
                             if button["on_release"]:
                                 button["on_release"]()
 
