@@ -25,13 +25,13 @@ open config.py in your editor of choice
 $ nvim config.py
 ```
 
-run the program
+config instructigons are provided in config.py
+
+after configuring the macros to your liking, run the program
 
 ```shell
 $ python3 main.py
 ```
-
-see instructions there
 
 ## config examples
 
