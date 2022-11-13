@@ -4,6 +4,12 @@ simple lil program to add shortcuts to your launchpad
 
 ## installation
 
+clone repo
+
+```shell
+$ git clone https://github.com/sniiz/lpminimk3-macropad
+```
+
 install dependencies with pip - standard stuff right
 
 ```shell
