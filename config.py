@@ -11,6 +11,6 @@ config = {
         # }
         # note: you can leave on_release as None if you don't want to do anything
         # but you will need to define on_press
-        # note #2: the colors are not rgb, intead they use proprietaty color codes (see https://github.com/FMMT666/launchpad.py#color-codes)
+        # note #2: the colors use proprietaty color codes (outlined here https://github.com/FMMT666/launchpad.py#color-codes)
     ],
 }
